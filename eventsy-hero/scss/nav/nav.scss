@@ -1,0 +1,31 @@
+nav {
+  width: 980px;
+  height: 92.5px;
+
+  border-bottom: 2px solid $white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: lowercase;
+    a {
+      color: $white;
+      font-size: 15px;
+      text-decoration: none;
+    }
+    span {
+      color: $pink;
+      font-size: 20px;
+      margin: 0 10px;
+    }
+  }
+}
