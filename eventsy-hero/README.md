@@ -4,4 +4,6 @@
 
 This is the professor file and e will be uplating it weekly.
 
-I hope this shows something useful.
+This is the url for the eventsy website:
+
+https://satejchm.github.io/215repos/eventsy-hero/
