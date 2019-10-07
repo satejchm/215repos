@@ -4,4 +4,4 @@
 
 This is the URL for eventsy hero:
 
-https://satejchm.github.io/215repos/eventsy-hero/
+[Eventsy Practice Link](https://satejchm.github.io/215repos/eventsy-hero/)
