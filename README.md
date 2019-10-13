@@ -2,6 +2,6 @@
 
 ## This is the home folder for all my projects.
 
-This is the URL for eventsy hero:
+Below are my links for each assignment:
 
-[Eventsy Practice Link](https://satejchm.github.io/215repos/eventsy-hero/)
+[Homework 2 - Travel Fly](https://satejchm.github.io/215repos/travelfly-hero/)
