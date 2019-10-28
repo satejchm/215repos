@@ -1,0 +1,42 @@
+.footer-wrapper {
+  width: 100%;
+  background-color: $blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .footer {
+    margin: 0 auto;
+    width: 980px;
+    height: 92.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: $lato;
+
+    .logo {
+      width: 92px;
+      height: 42px;
+    }
+
+    .copyright {
+      justify-content: center;
+      text-transform: lowercase;
+      color: $white;
+      font-size: 12px;
+    }
+
+    .avatarLinks {
+      width: 110px;
+      height: 30px;
+      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .avatar {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

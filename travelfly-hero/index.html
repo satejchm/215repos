@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Hero Fly</title>
+    <title>Travel Fly</title>
     <link rel="stylesheet" href="css/styles.css" />
 
+    <!--using external link to use font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
     <!--Using an external link for the specific font type-->
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   </head>
   <body>
     <!--creating a sectin to contain all the information inside the hero section-->
@@ -41,5 +45,136 @@
         </div>
       </section>
 
+
+      <section class="flight-list">
+        <div class="flight-container">
+        
+
+        <div class="country-price-isreal">
+          <h4 class="country">isreal</h4>
+          <p class="price">From $1000</p>
+
+          <a class="flight-button" href="#">Learn More</a>
+        </div>
+
+        <div class="country-price-usa">
+          <h4 class="country">u.s.a</h4>
+          <p class="price">From $1500</p>
+
+          <a class="flight-button" href="#">Learn More</a>
+        </div>
+
+        <div class="country-price-australia">
+          <h4 class="country">australia</h4>
+          <p class="price">From $1800</p>
+
+          <a class="flight-button" href="#">Learn More</a>
+        </div>
+
+    
+  </div>
+</section>
+
+          <section class="inputs">
+            <div class="input-container">
+
+              <p class="title">Booking Form</p>
+ 
+
+              <div class="formContainer">
+            <input class="formEntry" type="text" name="name" placeholder="Name…"/>
+
+            <input class="formEntry2" type="text" name="email" placeholder="Email…"/>
+          </div>
+           
+          <div class="formContainer">
+            <input class="formEntry" type="text" name="country" placeholder="Country…"/>
+              
+            <input class="formEntry2" type="text" name="hotel" placeholder="Hotel…"/>
+        </div>
+
+        <div class="formContainer">
+           <p class="formP">Check In: </p> <input class="formCheckEntry" id="calenderImage" type="date" name="startDate" placeholder="Check in Date"/></div>
+
+           <div class="formContainer">
+            <p class="formP">Check Out: </p><input class="formCheckEntry" id="calenderImage"type="date" name="endDate" placeholder="Check out Date"/></div>
+   
+            <div class="formContainer">
+            <label class= "formP">Adult: </label>
+             <select class = "dropDown">
+               <option value = "0">0</option>
+               <option value = "1">1</option>
+               <option value = "2">2</option>
+               <option value = "3">3</option>
+               <option value = "4">4</option>
+             </select>
+            
+
+          
+            <label class= "formP">Children: </label>
+             <select class = "dropDown">
+                <option value = "0">0</option>
+               <option value = "1">1</option>
+               <option value = "2">2</option>
+               <option value = "3">3</option>
+               <option value = "4">4</option>
+             </select>
+            
+ 
+            <label class= "formP">Rooms: </label>
+            <select class = "dropDown">
+                <option value = "0">0</option>
+              <option  value = "1">1</option>
+              <option value = "2">2</option>
+              <option value = "3">3</option>
+              <option value = "4">4</option>
+            </select>
+            </div>
+           
+            <div class="formContainer">
+           <input class="commentEntry" type="text" name="name" placeholder="message…"/>
+           </div>
+
+           <div class="buttonContainer">
+           <a class="submitButton" href="#">Submit</a>
+            </div>
+          </div>
+          </section>
+
+          <section class="footer-wrapper">
+            <div class="footer">
+              <div class="logo">
+                  <a href="#">
+                  <img src="images/logo/logo-white.svg">
+                  </a>
+                </div>
+
+
+
+                <div class="copyright">Copyright 2019 travel-fly.  All rights reserved</div>
+
+                <div class="avatarLinks">
+
+                  <div class="avatar">
+                    <a href="#">
+                        <img src="images/avatars/facebook.JPG">
+                        </a>
+                      </div>
+
+                      <div class="avatar">
+                        <a href="#">
+                            <img src="images/avatars/instagram.JPG">
+                            </a>
+                      </div>
+
+                      <div class="avatar">
+                            <a href="#">
+                                <img src="images/avatars/twitter.JPG">
+                                </a>
+                                </div>
+                                            </div>
+              </div>
+
+          </section>
   </body>
 </html>

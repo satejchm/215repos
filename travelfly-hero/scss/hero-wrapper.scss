@@ -2,10 +2,10 @@
 .hero-wrapper {
   width: 100%;
   height: 500px;
-  background-color: rgba($blue, 0.5);
+  background-color: $blue;
 
   .hero {
-    font-family: $amatic;
+    font-family: $lato;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +31,7 @@
 
     h1 {
       color: $white;
-      font-family: $amatic;
+      font-family: $roboto;
       font-size: 60px;
     }
 
@@ -49,6 +49,7 @@
     }
 
     .hero-button {
+      font-family: $lato;
       font-size: 15px;
       padding: 6px 25px;
       background-color: $blue;

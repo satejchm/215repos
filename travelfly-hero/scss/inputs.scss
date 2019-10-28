@@ -1,0 +1,110 @@
+.inputs {
+  min-height: 100%;
+  font-family: $lato;
+  display: flex;
+  justify-content: space-around;
+
+  .input-container {
+    @include center-content();
+    padding: 50px 40px;
+    width: 900px;
+
+    .title {
+      //text-transform: uppercase;
+      font-family: $roboto;
+      font-size: 60px;
+      color: $black;
+      margin-bottom: 20px;
+      margin-top: -20px;
+    }
+
+    .formContainer {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 20px;
+    }
+    .formEntry {
+      padding: 10px;
+      width: 345px;
+      height: 60px;
+      border-color: $blue;
+      border-width: 0.75px;
+      //justify-content: right;
+    }
+
+    .formEntry2 {
+      padding: 10px;
+      border-color: $blue;
+      border-width: 0.75px;
+      width: 450px;
+      height: 60px;
+    }
+
+    #calenderImage {
+      background: white url("../images/avatars/calender.JPG") right no-repeat;
+      padding-right: 25px;
+    }
+    .formP {
+      //padding-right: 20px;
+      padding: 10px;
+      display: inline;
+      border-color: $blue;
+      border-width: 0.75px;
+
+      p {
+        margin-top: 20px;
+      }
+    }
+
+    .formCheckEntry {
+      padding: 20px;
+      //padding-right: 20px;
+      border-color: $blue;
+      border-width: 0.75px;
+      width: 700px;
+      height: 60px;
+      display: inline;
+      justify-content: right;
+    }
+
+    /*.dropDownContainer {
+      width: 200px;
+      display: flex;
+      justify-content: center;
+    }*/
+    .dropDown {
+      border-color: $blue;
+      width: 105px;
+      height: 60px;
+      display: inline;
+      //flex-direction: row;
+      justify-content: space-between;
+      padding: 10px;
+    }
+
+    .commentEntry {
+      padding: 10px;
+      width: 820px;
+      height: 190px;
+      display: inline;
+      padding-bottom: 20px;
+      border-color: $blue;
+      border-width: 0.75px;
+    }
+
+    .buttonContainer {
+      padding-bottom: 40px;
+    }
+
+    .submitButton {
+      font-size: 15px;
+      width: 815px;
+      padding: 6px 375px;
+      background-color: $blue;
+      color: white;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 20px;
+    }
+  }
+}

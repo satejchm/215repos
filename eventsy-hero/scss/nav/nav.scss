@@ -1,7 +1,8 @@
 nav {
-  width: 980px;
+  position: relative;
+  z-index: 99;
+  width: 80%;
   height: 92.5px;
-
   border-bottom: 2px solid $white;
   display: flex;
   align-items: center;
@@ -11,21 +12,61 @@ nav {
     width: 92px;
     height: 42px;
   }
-
-  .links {
+  .link-wrap {
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-transform: lowercase;
-    a {
-      color: $white;
-      font-size: 15px;
-      text-decoration: none;
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: lowercase;
+      a {
+        color: $white;
+        font-size: 15px;
+        text-decoration: none;
+      }
+      span {
+        color: $pink;
+        font-size: 20px;
+        margin: 0 10px;
+      }
+      .navicon {
+        display: none;
+        color: $white;
+        font-size: 120%;
+        cursor: pointer;
+      }
     }
-    span {
-      color: $pink;
-      font-size: 20px;
-      margin: 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    .link-wrap {
+      .links {
+        // display: none;
+        flex-direction: column;
+        margin-top: 275px;
+        background-color: rgba($pink, 0.5);
+        margin-right: -30px;
+        width: 200px;
+        &:hover > .links {
+          display: block;
+        }
+
+        a {
+          margin-bottom: 20px;
+        }
+        span {
+          display: none;
+        }
+      }
+
+      .navicon {
+        margin-top: -260px;
+        display: block;
+        color: $white;
+      }
     }
   }
 }
