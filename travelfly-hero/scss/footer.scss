@@ -1,3 +1,4 @@
+//styling for footer of the page
 .footer-wrapper {
   width: 100%;
   background-color: $blue;
@@ -37,6 +38,14 @@
     .avatar {
       width: 30px;
       height: 30px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-wrapper {
+    .footer {
+      flex-direction: column;
     }
   }
 }

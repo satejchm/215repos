@@ -34,8 +34,9 @@ h6 {
     -ms-flex-align: center;
     align-items: center;
     width: 1280px;
-    height: 100%;
     margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/hero.jpg");
     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/hero.jpg");
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/hero.jpg");
@@ -43,34 +44,31 @@ h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
-  .hero-wrapper .callout {
-    text-align: center;
-    margin-top: 70px;
-    width: 500px; }
-    .hero-wrapper .callout h1 {
-      color: #ffffff;
-      font-family: "Roboto", sans-serif;
-      font-size: 60px; }
-    .hero-wrapper .callout .l-imp {
-      color: #79addc;
-      margin-bottom: 25px;
-      font-style: italic;
-      font-size: 20px; }
-    .hero-wrapper .callout .desc {
-      color: #ffffff;
-      margin-bottom: 20px;
-      font-size: 20px; }
-    .hero-wrapper .callout .hero-button {
-      font-family: "Lato", sans-serif;
-      font-size: 15px;
-      padding: 6px 25px;
-      background-color: #79addc;
-      color: white;
-      text-transform: uppercase;
-      text-decoration: none; }
+    .hero-wrapper .hero .callout {
+      text-align: center;
+      margin-top: 70px;
+      width: 500px;
+      min-height: 200px; }
+      .hero-wrapper .hero .callout h1 {
+        color: #ffffff;
+        font-family: "Roboto", sans-serif;
+        font-size: 60px; }
+      .hero-wrapper .hero .callout .desc {
+        color: #ffffff;
+        margin-bottom: 20px;
+        font-size: 20px; }
+      .hero-wrapper .hero .callout .hero-button {
+        font-family: "Lato", sans-serif;
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: #79addc;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none; }
 
 nav {
-  width: 980px;
+  z-index: 99;
+  width: 80%;
   height: 92.5px;
   border-bottom: 2px solid #ffffff;
   display: -webkit-box;
@@ -86,46 +84,82 @@ nav {
   nav .logo {
     width: 92px;
     height: 42px; }
-  nav .links {
+  nav .link-wrap {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-transform: lowercase; }
-    nav .links a {
+    align-items: center; }
+    nav .link-wrap .links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-transform: lowercase; }
+      nav .link-wrap .links a {
+        color: #ffffff;
+        font-size: 15px;
+        text-decoration: none; }
+      nav .link-wrap .links span {
+        font-family: none;
+        color: #79addc;
+        font-size: 20px;
+        margin: 0 10px; }
+    nav .link-wrap .navicon {
+      display: none;
       color: #ffffff;
-      font-size: 15px;
-      text-decoration: none; }
-    nav .links span {
-      font-family: none;
-      color: #79addc;
-      font-size: 20px;
-      margin: 0 10px; }
+      font-size: 120%;
+      cursor: pointer; }
+
+@media (max-width: 800px) {
+  nav .link-wrap {
+    margin-top: 250px;
+    padding-top: 50px; }
+    nav .link-wrap:hover > .links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    nav .link-wrap .links {
+      display: none;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-right: -80px;
+      width: 150px;
+      background-color: rgba(0, 0, 0, 0.5); }
+      nav .link-wrap .links a {
+        margin-bottom: 20px; }
+      nav .link-wrap .links span {
+        display: none; }
+    nav .link-wrap .navicon {
+      margin-top: -260px;
+      display: block; } }
 
 .flight-list {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
-  height: 310px;
-  width: 100%; }
+  min-height: 310px; }
   .flight-list .flight-container {
-    width: 800px;
+    width: 1280px;
     margin: 0 auto;
-    margin-top: 10;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between; }
+    justify-content: space-between;
+    width: 900px; }
     .flight-list .flight-container .country-price-isreal {
       margin-top: -50px;
       width: 240px;
-      height: 300px;
+      height: 305px;
       background-color: #000000;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -166,7 +200,7 @@ nav {
     .flight-list .flight-container .country-price-usa {
       margin-top: -50px;
       width: 240px;
-      height: 300px;
+      height: 305;
       background-color: #000000;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -181,6 +215,7 @@ nav {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
+      margin-bottom: 5px;
       background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-02.jpg");
       background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-02.jpg");
       background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-02.jpg");
@@ -206,7 +241,7 @@ nav {
     .flight-list .flight-container .country-price-australia {
       margin-top: -50px;
       width: 240px;
-      height: 300px;
+      height: 305;
       background-color: #000000;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -244,6 +279,19 @@ nav {
         text-decoration: none;
         border-radius: 20px; }
 
+@media (max-width: 1090px) {
+  .flight-list .flight-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 1000px;
+    margin-left: 30%; }
+    .flight-list .flight-container .country-price-australia,
+    .flight-list .flight-container .country-price-isreal,
+    .flight-list .flight-container .country-price-usa {
+      height: 305px; } }
+
 .inputs {
   min-height: 100%;
   font-family: "Lato", sans-serif;
@@ -256,12 +304,7 @@ nav {
     width: 1280px;
     margin: 0 auto;
     padding: 50px 40px;
-    width: 900px;
-    /*.dropDownContainer {
-      width: 200px;
-      display: flex;
-      justify-content: center;
-    }*/ }
+    width: 900px; }
     .inputs .input-container .title {
       font-family: "Roboto", sans-serif;
       font-size: 60px;
@@ -276,66 +319,93 @@ nav {
       -ms-flex-pack: justify;
       justify-content: space-between;
       padding-bottom: 20px; }
-    .inputs .input-container .formEntry {
-      padding: 10px;
+      .inputs .input-container .formContainer .formEntry {
+        padding: 10px;
+        width: 345px;
+        height: 60px;
+        border-color: #79addc;
+        border-width: 0.75px; }
+      .inputs .input-container .formContainer .formEntry2 {
+        padding: 10px;
+        border-color: #79addc;
+        border-width: 0.75px;
+        width: 450px;
+        height: 60px; }
+      .inputs .input-container .formContainer #calenderImage {
+        background: white url("../images/avatars/calender.JPG") right no-repeat;
+        padding-right: 25px; }
+      .inputs .input-container .formContainer .downDivContainer {
+        margin-bottom: 10px; }
+        .inputs .input-container .formContainer .downDivContainer .formP {
+          padding: 10px;
+          display: inline;
+          border-color: #79addc;
+          border-width: 0.75px; }
+          .inputs .input-container .formContainer .downDivContainer .formP p {
+            margin-top: 20px; }
+      .inputs .input-container .formContainer .formCheckEntry {
+        padding: 20px;
+        border-color: #79addc;
+        border-width: 0.75px;
+        width: 700px;
+        height: 60px;
+        display: inline;
+        -webkit-box-pack: right;
+        -ms-flex-pack: right;
+        justify-content: right; }
+      .inputs .input-container .formContainer .dropDown {
+        border-color: #79addc;
+        width: 105px;
+        height: 60px;
+        display: inline;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 10px; }
+      .inputs .input-container .formContainer .commentEntry {
+        padding: 10px;
+        width: 820px;
+        height: 190px;
+        display: inline;
+        padding-bottom: 20px;
+        border-color: #79addc;
+        border-width: 0.75px; }
+      .inputs .input-container .formContainer .submitContainer {
+        margin-bottom: 30px; }
+        .inputs .input-container .formContainer .submitContainer .submitButton {
+          font-size: 15px;
+          max-width: 815px;
+          height: 25px;
+          padding: 6px 375px;
+          background-color: #79addc;
+          color: #ffffff;
+          text-transform: uppercase;
+          text-decoration: none;
+          border-radius: 20px; }
+
+@media (max-width: 1092px) {
+  .inputs .input-container .formContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .inputs .input-container .formContainer .formEntry,
+    .inputs .input-container .formContainer .formEntry2,
+    .inputs .input-container .formContainer .formCheckEntry,
+    .inputs .input-container .formContainer .commentEntry {
+      max-width: 345px;
+      margin-bottom: 10px; }
+    .inputs .input-container .formContainer .submitContainer .submitButton {
       width: 345px;
-      height: 60px;
-      border-color: #79addc;
-      border-width: 0.75px; }
-    .inputs .input-container .formEntry2 {
-      padding: 10px;
-      border-color: #79addc;
-      border-width: 0.75px;
-      width: 450px;
-      height: 60px; }
-    .inputs .input-container #calenderImage {
-      background: white url("../images/avatars/calender.JPG") right no-repeat;
-      padding-right: 25px; }
-    .inputs .input-container .formP {
-      padding: 10px;
-      display: inline;
-      border-color: #79addc;
-      border-width: 0.75px; }
-      .inputs .input-container .formP p {
-        margin-top: 20px; }
-    .inputs .input-container .formCheckEntry {
-      padding: 20px;
-      border-color: #79addc;
-      border-width: 0.75px;
-      width: 700px;
-      height: 60px;
-      display: inline;
-      -webkit-box-pack: right;
-      -ms-flex-pack: right;
-      justify-content: right; }
-    .inputs .input-container .dropDown {
-      border-color: #79addc;
-      width: 105px;
-      height: 60px;
-      display: inline;
+      margin-bottom: 10px;
+      padding: 6px 145px; }
+    .inputs .input-container .formContainer .downDivContainer .formP {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-      justify-content: space-between;
-      padding: 10px; }
-    .inputs .input-container .commentEntry {
-      padding: 10px;
-      width: 820px;
-      height: 190px;
-      display: inline;
-      padding-bottom: 20px;
-      border-color: #79addc;
-      border-width: 0.75px; }
-    .inputs .input-container .buttonContainer {
-      padding-bottom: 40px; }
-    .inputs .input-container .submitButton {
-      font-size: 15px;
-      width: 815px;
-      padding: 6px 375px;
-      background-color: #79addc;
-      color: white;
-      text-transform: uppercase;
-      text-decoration: none;
-      border-radius: 20px; }
+      justify-content: space-between; } }
 
 .footer-wrapper {
   width: 100%;
@@ -386,3 +456,10 @@ nav {
     .footer-wrapper .footer .avatar {
       width: 30px;
       height: 30px; }
+
+@media (max-width: 600px) {
+  .footer-wrapper .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; } }

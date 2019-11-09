@@ -9,9 +9,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1280px;
+    @include center-content();
+    max-width: 100%;
     height: 100%;
-    margin: 0 auto;
     background-image: linear-gradient(
         to right,
         rgba($black, 0.4),
@@ -22,40 +22,35 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
 
-  .callout {
-    text-align: center;
-    margin-top: 70px;
-    width: 500px;
+    .callout {
+      //@include center-content();
+      text-align: center;
+      margin-top: 70px;
+      width: 500px;
+      min-height: 200px;
 
-    h1 {
-      color: $white;
-      font-family: $roboto;
-      font-size: 60px;
-    }
+      h1 {
+        color: $white;
+        font-family: $roboto;
+        font-size: 60px;
+      }
 
-    .l-imp {
-      color: $blue;
-      margin-bottom: 25px;
-      font-style: italic;
-      font-size: 20px;
-    }
+      .desc {
+        color: $white;
+        margin-bottom: 20px;
+        font-size: 20px;
+      }
 
-    .desc {
-      color: $white;
-      margin-bottom: 20px;
-      font-size: 20px;
-    }
-
-    .hero-button {
-      font-family: $lato;
-      font-size: 15px;
-      padding: 6px 25px;
-      background-color: $blue;
-      color: white;
-      text-transform: uppercase;
-      text-decoration: none;
+      .hero-button {
+        font-family: $lato;
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: $blue;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
     }
   }
 }

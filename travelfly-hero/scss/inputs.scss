@@ -1,3 +1,4 @@
+//this page contains styling for the different inputs in the form section
 .inputs {
   min-height: 100%;
   font-family: $lato;
@@ -9,6 +10,7 @@
     padding: 50px 40px;
     width: 900px;
 
+    //title above form
     .title {
       //text-transform: uppercase;
       font-family: $roboto;
@@ -17,94 +19,134 @@
       margin-bottom: 20px;
       margin-top: -20px;
     }
-
+    //container to hold information for each form
     .formContainer {
       display: flex;
       justify-content: space-between;
       padding-bottom: 20px;
-    }
-    .formEntry {
-      padding: 10px;
-      width: 345px;
-      height: 60px;
-      border-color: $blue;
-      border-width: 0.75px;
-      //justify-content: right;
-    }
 
-    .formEntry2 {
-      padding: 10px;
-      border-color: $blue;
-      border-width: 0.75px;
-      width: 450px;
-      height: 60px;
-    }
+      //this form entry is to style the name and country
+      .formEntry {
+        padding: 10px;
+        width: 345px;
+        height: 60px;
+        border-color: $blue;
+        border-width: 0.75px;
+        //justify-content: right;
+      }
 
-    #calenderImage {
-      background: white url("../images/avatars/calender.JPG") right no-repeat;
-      padding-right: 25px;
-    }
-    .formP {
-      //padding-right: 20px;
-      padding: 10px;
-      display: inline;
-      border-color: $blue;
-      border-width: 0.75px;
+      //form entry for email and hotel
+      .formEntry2 {
+        padding: 10px;
+        border-color: $blue;
+        border-width: 0.75px;
+        width: 450px;
+        height: 60px;
+      }
 
-      p {
-        margin-top: 20px;
+      //image to input date with a calender image in corner of input box
+      #calenderImage {
+        background: white url("../images/avatars/calender.JPG") right no-repeat;
+        padding-right: 25px;
+      }
+
+      //for the drop down menus for the adult, children, room options
+      .downDivContainer {
+        margin-bottom: 10px;
+        .formP {
+          //padding-right: 20px;
+          padding: 10px;
+          display: inline;
+          border-color: $blue;
+          border-width: 0.75px;
+
+          p {
+            margin-top: 20px;
+          }
+        }
+      }
+
+      //to choose the date
+      .formCheckEntry {
+        padding: 20px;
+        //padding-right: 20px;
+        border-color: $blue;
+        border-width: 0.75px;
+        width: 700px;
+        height: 60px;
+        display: inline;
+        justify-content: right;
+      }
+
+      //style options for the actual drop down inside input for children, adults, rooms
+      .dropDown {
+        border-color: $blue;
+        width: 105px;
+        height: 60px;
+        display: inline;
+        //flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+      }
+
+      //styling for comment box
+      .commentEntry {
+        padding: 10px;
+        width: 820px;
+        height: 190px;
+        display: inline;
+        padding-bottom: 20px;
+        border-color: $blue;
+        border-width: 0.75px;
+      }
+
+      //styling for submit button
+      .submitContainer {
+        margin-bottom: 30px;
+        .submitButton {
+          font-size: 15px;
+          max-width: 815px;
+          height: 25px;
+          padding: 6px 375px;
+          background-color: $blue;
+          color: $white;
+          text-transform: uppercase;
+          text-decoration: none;
+          border-radius: 20px;
+        }
       }
     }
+  }
+}
 
-    .formCheckEntry {
-      padding: 20px;
-      //padding-right: 20px;
-      border-color: $blue;
-      border-width: 0.75px;
-      width: 700px;
-      height: 60px;
-      display: inline;
-      justify-content: right;
-    }
+//media query to change when it hits max width
+@media (max-width: 1092px) {
+  .inputs {
+    .input-container {
+      .formContainer {
+        flex-direction: column;
+        .formEntry,
+        .formEntry2,
+        .formCheckEntry,
+        .commentEntry {
+          max-width: 345px;
+          margin-bottom: 10px;
+        }
 
-    /*.dropDownContainer {
-      width: 200px;
-      display: flex;
-      justify-content: center;
-    }*/
-    .dropDown {
-      border-color: $blue;
-      width: 105px;
-      height: 60px;
-      display: inline;
-      //flex-direction: row;
-      justify-content: space-between;
-      padding: 10px;
-    }
-
-    .commentEntry {
-      padding: 10px;
-      width: 820px;
-      height: 190px;
-      display: inline;
-      padding-bottom: 20px;
-      border-color: $blue;
-      border-width: 0.75px;
-    }
-
-    .buttonContainer {
-      padding-bottom: 40px;
-    }
-
-    .submitButton {
-      font-size: 15px;
-      width: 815px;
-      padding: 6px 375px;
-      background-color: $blue;
-      color: white;
-      text-transform: uppercase;
-      text-decoration: none;
-      border-radius: 20px;
+        .submitContainer {
+          .submitButton {
+            width: 345px;
+            margin-bottom: 10px;
+            padding: 6px 145px;
+          }
+        }
+        .downDivContainer {
+          .formP {
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+      }
     }
   }
 }

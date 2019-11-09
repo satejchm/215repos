@@ -1,9 +1,10 @@
 //styling for the information inside the navigation section
 
 nav {
-  width: 980px;
+  //position: relative;
+  z-index: 99;
+  width: 80%;
   height: 92.5px;
-
   border-bottom: 2px solid $white;
   display: flex;
   align-items: center;
@@ -15,21 +16,69 @@ nav {
     height: 42px;
   }
 
-  .links {
+  .link-wrap {
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-transform: lowercase;
-    a {
-      color: $white;
-      font-size: 15px;
-      text-decoration: none;
+
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: lowercase;
+      a {
+        color: $white;
+        font-size: 15px;
+        text-decoration: none;
+      }
+      span {
+        font-family: none;
+        color: $blue;
+        font-size: 20px;
+        margin: 0 10px;
+      }
     }
-    span {
-      font-family: none;
-      color: $blue;
-      font-size: 20px;
-      margin: 0 10px;
+
+    .navicon {
+      display: none;
+      color: $white;
+      font-size: 120%;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  nav {
+    .link-wrap {
+      margin-top: 250px;
+      padding-top: 50px;
+
+      &:hover > .links {
+        display: flex;
+      }
+
+      .links {
+        display: none;
+
+        flex-direction: column;
+
+        margin-right: -80px;
+        width: 150px;
+        background-color: rgba(0, 0, 0, 0.5);
+        a {
+          margin-bottom: 20px;
+        }
+
+        span {
+          display: none;
+          // visibility: hidden;
+        }
+      }
+
+      .navicon {
+        margin-top: -260px;
+        display: block;
+      }
     }
   }
 }
