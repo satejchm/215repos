@@ -1356,7 +1356,7 @@ nav {
           padding-top: 50px;
           width: 400px;
           height: 445px;
-          background-image: url("../images/map.jpg");
+          background-image: url("/images/map.jpg");
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover; }
@@ -1764,10 +1764,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-canada/canada-tour-01.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-canada/canada-tour-01.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-canada/canada-tour-01.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-canada/canada-tour-01.jpg");
+        background-image: url("../images/tour/tour-canada/canada-tour-01.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -1788,10 +1785,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-canada/canada-tour-02.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-canada/canada-tour-02.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-canada/canada-tour-02.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-canada/canada-tour-02.jpg");
+        background-image: url("../images/tour/tour-canada/canada-tour-02.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -1812,10 +1806,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-canada/canada-tour-03.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-canada/canada-tour-03.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-canada/canada-tour-03.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-canada/canada-tour-03.jpg");
+        background-image: url("../images/tour/tour-canada/canada-tour-03.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -1911,10 +1902,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-egypt/egypt-tour-01.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-egypt/egypt-tour-01.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-egypt/egypt-tour-01.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-egypt/egypt-tour-01.jpg");
+        background-image: url("../images/tour/tour-egypt/egypt-tour-01.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -1935,10 +1923,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-egypt/egypt-tour-02.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-egypt/egypt-tour-02.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-egypt/egypt-tour-02.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-egypt/egypt-tour-02.jpg");
+        background-image: url("../images/tour/tour-egypt/egypt-tour-02.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -1959,10 +1944,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-egypt/egypt-tour-03.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-egypt/egypt-tour-03.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-egypt/egypt-tour-03.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-egypt/egypt-tour-03.jpg");
+        background-image: url("../images/tour/tour-egypt/egypt-tour-03.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -2334,10 +2316,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-japan/japan-tour-01.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-japan/japan-tour-01.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-japan/japan-tour-01.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-japan/japan-tour-01.jpg");
+        background-image: url("../images/tour/tour-japan/japan-tour-01.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -2358,10 +2337,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-japan/japan-tour-02.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-japan/japan-tour-02.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-japan/japan-tour-02.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-japan/japan-tour-02.jpg");
+        background-image: url("../images/tour/tour-japan/japan-tour-02.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -2382,10 +2358,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-japan/japan-tour-03.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-japan/japan-tour-03.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-japan/japan-tour-03.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-japan/japan-tour-03.jpg");
+        background-image: url("../images/tour/tour-japan/japan-tour-03.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -2481,10 +2454,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-nz/nz-tour-01.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-nz/nz-tour-01.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-nz/nz-tour-01.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-nz/nz-tour-01.jpg");
+        background-image: url("../images/tour/tour-nz/nz-tour-01.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -2505,10 +2475,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-nz/nz-tour-02.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-nz/nz-tour-02.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-nz/nz-tour-02.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-nz/nz-tour-02.jpg");
+        background-image: url("../images/tour/tour-nz/nz-tour-02.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -2529,10 +2496,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-nz/nz-tour-03.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-nz/nz-tour-03.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-nz/nz-tour-03.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-nz/nz-tour-03.jpg");
+        background-image: url("../images/tour/tour-nz/nz-tour-03.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -2628,10 +2592,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-uae/uae-tour-01.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-uae/uae-tour-01.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-uae/uae-tour-01.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-uae/uae-tour-01.jpg");
+        background-image: url("../images/tour/tour-uae/uae-tour-01.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -2652,10 +2613,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-uae/uae-tour-02.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-uae/uae-tour-02.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-uae/uae-tour-02.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-uae/uae-tour-02.jpg");
+        background-image: url("../images/tour/tour-uae/uae-tour-02.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -2676,10 +2634,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-uae/uae-tour-03.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-uae/uae-tour-03.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-uae/uae-tour-03.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-uae/uae-tour-03.jpg");
+        background-image: url("../images/tour/tour-uae/uae-tour-03.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -2775,10 +2730,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-usa/usa-tour-01.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-usa/usa-tour-01.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-usa/usa-tour-01.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-usa/usa-tour-01.jpg");
+        background-image: url("../images/tour/tour-usa/usa-tour-01.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -2799,10 +2751,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-usa/usa-tour-02.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-usa/usa-tour-02.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-usa/usa-tour-02.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-usa/usa-tour-02.jpg");
+        background-image: url("../images/tour/tour-usa/usa-tour-02.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -2823,10 +2772,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-usa/usa-tour-03.jpg");
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-usa/usa-tour-03.jpg");
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-usa/usa-tour-03.jpg");
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-usa/usa-tour-03.jpg");
+        background-image: url("../images/tour/tour-usa/usa-tour-03.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
