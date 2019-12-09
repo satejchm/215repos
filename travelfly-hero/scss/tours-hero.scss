@@ -1,0 +1,62 @@
+//this is the styling for the hero section.
+.tours-hero-wrapper {
+  width: 100%;
+  min-height: 400px;
+  //background-color: $blue;
+
+  .hero {
+    font-family: $lato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include center-content();
+    max-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .callout {
+      text-align: center;
+      justify-content: center;
+      margin-top: 70px;
+      min-height: 200px;
+      width: 80%;
+      background-image: linear-gradient(
+          to right,
+          rgba($black, 0.5),
+          rgba($black, 0.5)
+        ),
+        url("../images/tour/tours-header.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      h1 {
+        margin-top: 60px;
+        color: $white;
+        font-family: $roboto;
+        font-size: 60px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+@media (max-width: 1090px) {
+  .tour-hero-wrapper {
+    .hero {
+      flex-direction: column;
+      min-height: 1000px;
+      //justify-content: space-around;
+      margin-left: 30%;
+      padding-bottom: 50px;
+
+      .country-price-australia,
+      .country-price-isreal,
+      .country-price-usa {
+        height: 305px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html,
+body {
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 10px; }
+
+nav {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  nav a {
+    color: #5885ff;
+    margin: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+
+section {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  padding: 70px 20px 20px 10px; }
+  section h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+    font-size: 300%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+  section p {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+
+#homeSection {
+  background-color: #5885ff; }
+
+#aboutSection {
+  background-color: #ffcd83; }
+
+#productsSection {
+  background-color: #5885ff; }
+
+#contactsSection {
+  background-color: #ffcd83; }
+
+#staffSection {
+  background-color: #5885ff; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: block; }

@@ -1,0 +1,19 @@
+//this is the styling for the hero section.
+.offer-hero-wrapper {
+  width: 100%;
+  min-height: 150px;
+  //background-color: $blue;
+
+  .hero {
+    font-family: $lato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include center-content();
+    max-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

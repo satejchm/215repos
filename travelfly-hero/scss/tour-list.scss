@@ -1,0 +1,427 @@
+//styling for the section on the page with the 3 boxes containing flight list information(place and price)
+.tour-list {
+  font-family: $roboto;
+  color: $white;
+  min-height: 310px;
+  // width: 100%;
+
+  .tour-container {
+    @include center-content();
+    //margin-top: 10;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 1100px;
+    //padding: 50px 40px;
+    width: 800px;
+
+    //flight details for isreal
+    .country-price-isreal {
+      width: 240px;
+      height: 305px;
+      background-color: $black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(
+          to right,
+          rgba($black, 0.4),
+          rgba($black, 0.4)
+        ),
+        url("../images/tour/tour-01.jpg");
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .price {
+        margin-bottom: 40px;
+        font-size: 30px;
+      }
+
+      .country {
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        font-size: 50px;
+      }
+
+      .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: $blue;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px;
+        font-family: $lato;
+      }
+    }
+
+    //flight details for usa
+    .country-price-usa {
+      width: 240px;
+      height: 305px;
+      background-color: $black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 5px;
+
+      background-image: linear-gradient(
+          to right,
+          rgba($black, 0.4),
+          rgba($black, 0.4)
+        ),
+        url("../images/tour/tour-02.jpg");
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .price {
+        margin-bottom: 40px;
+        font-size: 30px;
+      }
+
+      .country {
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        font-size: 50px;
+      }
+
+      .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: $blue;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px;
+      }
+    }
+
+    //flight details for australia
+    .country-price-australia {
+      width: 240px;
+      height: 305px;
+      background-color: $black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      background-image: linear-gradient(
+          to right,
+          rgba($black, 0.4),
+          rgba($black, 0.4)
+        ),
+        url("../images/tour/tour-03.jpg");
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .price {
+        margin-bottom: 40px;
+        font-size: 30px;
+      }
+
+      .country {
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        font-size: 40px;
+      }
+
+      .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: $blue;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px;
+      }
+    }
+
+    //flight details for new zealand
+    .country-price-new-zealand {
+      width: 240px;
+      height: 305px;
+      background-color: $black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      background-image: linear-gradient(
+          to right,
+          rgba($black, 0.4),
+          rgba($black, 0.4)
+        ),
+        url("../images/tour/tour-04.jpg");
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .price {
+        margin-bottom: 40px;
+        font-size: 30px;
+      }
+
+      .country {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        font-size: 50px;
+      }
+
+      .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: $blue;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px;
+      }
+    }
+
+    //flight details for france
+    .country-price-france {
+      width: 240px;
+      height: 305px;
+      background-color: $black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      background-image: linear-gradient(
+          to right,
+          rgba($black, 0.4),
+          rgba($black, 0.4)
+        ),
+        url("../images/tour/tour-05.jpg");
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .price {
+        margin-bottom: 40px;
+        font-size: 30px;
+      }
+
+      .country {
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        font-size: 50px;
+      }
+
+      .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: $blue;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px;
+      }
+    }
+
+    //flight details for egypt
+    .country-price-egypt {
+      width: 240px;
+      height: 305px;
+      background-color: $black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      background-image: linear-gradient(
+          to right,
+          rgba($black, 0.4),
+          rgba($black, 0.4)
+        ),
+        url("../images/tour/tour-06.jpg");
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .price {
+        margin-bottom: 40px;
+        font-size: 30px;
+      }
+
+      .country {
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        font-size: 50px;
+      }
+
+      .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: $blue;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px;
+      }
+    }
+
+    //flight details for japan
+    .country-price-japan {
+      width: 240px;
+      height: 305px;
+      background-color: $black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      background-image: linear-gradient(
+          to right,
+          rgba($black, 0.4),
+          rgba($black, 0.4)
+        ),
+        url("../images/tour/tour-07.jpg");
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .price {
+        margin-bottom: 40px;
+        font-size: 30px;
+      }
+
+      .country {
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        font-size: 50px;
+      }
+
+      .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: $blue;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px;
+      }
+    }
+
+    //flight details for canada
+    .country-price-canada {
+      width: 240px;
+      height: 305px;
+      background-color: $black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      background-image: linear-gradient(
+          to right,
+          rgba($black, 0.4),
+          rgba($black, 0.4)
+        ),
+        url("../images/tour/tour-08.jpg");
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .price {
+        margin-bottom: 40px;
+        font-size: 30px;
+      }
+
+      .country {
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        font-size: 50px;
+      }
+
+      .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: $blue;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px;
+      }
+    }
+
+    //flight details for  uae
+    .country-price-uae {
+      width: 240px;
+      height: 305px;
+      background-color: $black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      background-image: linear-gradient(
+          to right,
+          rgba($black, 0.4),
+          rgba($black, 0.4)
+        ),
+        url("../images/tour/tour-09.jpg");
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .price {
+        margin-bottom: 40px;
+        font-size: 30px;
+      }
+
+      .country {
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        font-size: 50px;
+      }
+
+      .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: $blue;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1090px) {
+  .tour-list {
+    .tour-container {
+      flex-direction: column;
+      height: 3250px;
+      //justify-content: space-around;
+      align-items: center;
+      padding-bottom: 50px;
+
+      .country-price-australia,
+      .country-price-isreal,
+      .country-price-usa {
+        height: 305px;
+        padding-bottom: 50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+//this is the styling for the client quotes section.
+.client-quotes {
+  width: 100%;
+  min-height: 250px;
+  padding-bottom: 100px;
+  //background-color: $blue;
+  @include center-content();
+
+  .quote-holder {
+    font-family: $lato;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    @include center-content();
+    width: 80%;
+    height: 100%;
+
+    h1 {
+      color: $black;
+      font-family: $roboto;
+      font-size: 40px;
+      text-transform: uppercase;
+    }
+
+    .line {
+      width: 200px;
+      height: 2px;
+      background-color: $black;
+      margin-bottom: 20px;
+      margin-top: -20px;
+    }
+
+    .quote {
+      text-align: left;
+      margin-top: 70px;
+      min-height: 150px;
+      width: 75%;
+      display: flex;
+      flex-direction: row;
+
+      .desc {
+        color: $black;
+        margin-bottom: 20px;
+        font-size: 16px;
+      }
+
+      .line {
+        width: 150px;
+        height: 2px;
+        background-color: $black;
+        margin-bottom: 20px;
+        margin-top: -20px;
+      }
+
+      .client-image {
+        min-width: 260px;
+        height: 150px;
+        background-image: url("../images/about-client-01.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .client-image-two {
+        min-width: 260px;
+        height: 150px;
+        background-image: url("../images/about-client-02.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .quoteText {
+        min-width: 250px;
+        min-height: 150px;
+        padding-left: 20px;
+        font-size: 16px;
+      }
+
+      h2 {
+        text-align: right;
+        color: $blue;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1090px) {
+  .client-quotes {
+    .quote-holder {
+      .quote {
+        flex-direction: column;
+        min-height: 200px;
+        max-width: 260px;
+
+        p,
+        h2 {
+          margin: 0 auto;
+          padding-top: 20px;
+        }
+        .client-image,
+        .client-image-two {
+          width: 260px;
+          height: 150px;
+        }
+
+        h1 {
+          padding-top: 20px;
+        }
+
+        .line {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}

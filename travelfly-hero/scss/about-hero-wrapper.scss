@@ -1,0 +1,45 @@
+//this is the styling for the hero section.
+.about-hero-wrapper {
+  width: 100%;
+  min-height: 400px;
+  //background-color: $blue;
+
+  .hero {
+    font-family: $lato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include center-content();
+    max-width: 100%;
+    height: 100%;
+
+    .callout {
+      @include center-content();
+      text-align: left;
+      margin-top: 70px;
+      min-height: 200px;
+      width: 80%;
+
+      h1 {
+        color: $black;
+        font-family: $roboto;
+        font-size: 60px;
+        text-transform: uppercase;
+      }
+
+      .line {
+        width: 150px;
+        height: 2px;
+        background-color: $black;
+        margin-bottom: 20px;
+        margin-top: -20px;
+      }
+
+      .desc {
+        color: $black;
+        margin-bottom: 20px;
+        font-size: 16px;
+      }
+    }
+  }
+}

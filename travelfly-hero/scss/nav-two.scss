@@ -1,11 +1,11 @@
 //styling for the information inside the navigation section
 
-nav {
+.nav-two {
   //position: relative;
   z-index: 99;
   width: 80%;
   height: 92.5px;
-  border-bottom: 2px solid $white;
+  border-bottom: 2px solid $black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,7 +26,7 @@ nav {
       justify-content: center;
       text-transform: lowercase;
       a {
-        color: $white;
+        color: $black;
         font-size: 15px;
         text-decoration: none;
       }
@@ -40,7 +40,7 @@ nav {
 
     .navicon {
       display: none;
-      color: $white;
+      color: $black;
       font-size: 120%;
       cursor: pointer;
     }
@@ -48,7 +48,7 @@ nav {
 }
 
 @media (max-width: 800px) {
-  nav {
+  .nav-two {
     .link-wrap {
       margin-top: 250px;
       padding-top: 50px;
@@ -59,12 +59,11 @@ nav {
 
       .links {
         display: none;
-
         flex-direction: column;
-
         margin-right: -80px;
         width: 150px;
         background-color: $blue-a;
+
         a {
           margin-bottom: 20px;
         }

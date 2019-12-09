@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 10px;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  background-color: white;
+  display: flex;
+
+  a {
+    color: rgb(88, 133, 255);
+    margin: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  padding: 70px 20px 20px 10px;
+  //min-height: ;
+  h1 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+    font-size: 300%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  p {
+    //display: flex;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+
+#homeSection {
+  background-color: rgb(88, 133, 255);
+}
+
+#aboutSection {
+  background-color: rgb(255, 205, 131);
+}
+
+#productsSection {
+  background-color: rgb(88, 133, 255);
+}
+
+#contactsSection {
+  background-color: rgb(255, 205, 131);
+}
+
+#staffSection {
+  background-color: rgb(88, 133, 255);
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}

@@ -133,7 +133,7 @@ nav {
       flex-direction: column;
       margin-right: -80px;
       width: 150px;
-      background-color: rgba(0, 0, 0, 0.5); }
+      background-color: #79aedc8e; }
       nav .link-wrap .links a {
         margin-bottom: 20px; }
       nav .link-wrap .links span {
@@ -155,7 +155,7 @@ nav {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 900px; }
+    max-width: 900px; }
     .flight-list .flight-container .country-price-isreal {
       margin-top: -50px;
       width: 240px;
@@ -286,7 +286,9 @@ nav {
     -ms-flex-direction: column;
     flex-direction: column;
     min-height: 1000px;
-    margin-left: 30%; }
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
     .flight-list .flight-container .country-price-australia,
     .flight-list .flight-container .country-price-isreal,
     .flight-list .flight-container .country-price-usa {
@@ -375,8 +377,8 @@ nav {
         .inputs .input-container .formContainer .submitContainer .submitButton {
           font-size: 15px;
           max-width: 815px;
-          height: 25px;
-          padding: 6px 375px;
+          height: 30px;
+          padding: 10px 375px;
           background-color: #79addc;
           color: #ffffff;
           text-transform: uppercase;
@@ -384,11 +386,16 @@ nav {
           border-radius: 20px; }
 
 @media (max-width: 1092px) {
+  .inputs .input-container .title {
+    text-align: center; }
   .inputs .input-container .formContainer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
     .inputs .input-container .formContainer .formEntry,
     .inputs .input-container .formContainer .formEntry2,
     .inputs .input-container .formContainer .formCheckEntry,
@@ -398,7 +405,7 @@ nav {
     .inputs .input-container .formContainer .submitContainer .submitButton {
       width: 345px;
       margin-bottom: 10px;
-      padding: 6px 145px; }
+      padding: 10px 145px; }
     .inputs .input-container .formContainer .downDivContainer .formP {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -463,3 +470,1089 @@ nav {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column; } }
+
+.about-hero-wrapper {
+  width: 100%;
+  min-height: 400px; }
+  .about-hero-wrapper .hero {
+    font-family: "Lato", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%; }
+    .about-hero-wrapper .hero .callout {
+      width: 1280px;
+      margin: 0 auto;
+      text-align: left;
+      margin-top: 70px;
+      min-height: 200px;
+      width: 80%; }
+      .about-hero-wrapper .hero .callout h1 {
+        color: #000000;
+        font-family: "Roboto", sans-serif;
+        font-size: 60px;
+        text-transform: uppercase; }
+      .about-hero-wrapper .hero .callout .line {
+        width: 150px;
+        height: 2px;
+        background-color: #000000;
+        margin-bottom: 20px;
+        margin-top: -20px; }
+      .about-hero-wrapper .hero .callout .desc {
+        color: #000000;
+        margin-bottom: 20px;
+        font-size: 16px; }
+
+.nav-two {
+  z-index: 99;
+  width: 80%;
+  height: 92.5px;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-family: "Lato", sans-serif; }
+  .nav-two .logo {
+    width: 92px;
+    height: 42px; }
+  .nav-two .link-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .nav-two .link-wrap .links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-transform: lowercase; }
+      .nav-two .link-wrap .links a {
+        color: #000000;
+        font-size: 15px;
+        text-decoration: none; }
+      .nav-two .link-wrap .links span {
+        font-family: none;
+        color: #79addc;
+        font-size: 20px;
+        margin: 0 10px; }
+    .nav-two .link-wrap .navicon {
+      display: none;
+      color: #000000;
+      font-size: 120%;
+      cursor: pointer; }
+
+@media (max-width: 800px) {
+  .nav-two .link-wrap {
+    margin-top: 250px;
+    padding-top: 50px; }
+    .nav-two .link-wrap:hover > .links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .nav-two .link-wrap .links {
+      display: none;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-right: -80px;
+      width: 150px;
+      background-color: #79aedc8e; }
+      .nav-two .link-wrap .links a {
+        margin-bottom: 20px; }
+      .nav-two .link-wrap .links span {
+        display: none; }
+    .nav-two .link-wrap .navicon {
+      margin-top: -260px;
+      display: block; } }
+
+.client-quotes {
+  width: 100%;
+  min-height: 250px;
+  padding-bottom: 100px;
+  width: 1280px;
+  margin: 0 auto; }
+  .client-quotes .quote-holder {
+    font-family: "Lato", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    width: 1280px;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%; }
+    .client-quotes .quote-holder h1 {
+      color: #000000;
+      font-family: "Roboto", sans-serif;
+      font-size: 40px;
+      text-transform: uppercase; }
+    .client-quotes .quote-holder .line {
+      width: 200px;
+      height: 2px;
+      background-color: #000000;
+      margin-bottom: 20px;
+      margin-top: -20px; }
+    .client-quotes .quote-holder .quote {
+      text-align: left;
+      margin-top: 70px;
+      min-height: 150px;
+      width: 75%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row; }
+      .client-quotes .quote-holder .quote .desc {
+        color: #000000;
+        margin-bottom: 20px;
+        font-size: 16px; }
+      .client-quotes .quote-holder .quote .line {
+        width: 150px;
+        height: 2px;
+        background-color: #000000;
+        margin-bottom: 20px;
+        margin-top: -20px; }
+      .client-quotes .quote-holder .quote .client-image {
+        min-width: 260px;
+        height: 150px;
+        background-image: url("../images/about-client-01.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .client-quotes .quote-holder .quote .client-image-two {
+        min-width: 260px;
+        height: 150px;
+        background-image: url("../images/about-client-02.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .client-quotes .quote-holder .quote .quoteText {
+        min-width: 250px;
+        min-height: 150px;
+        padding-left: 20px;
+        font-size: 16px; }
+      .client-quotes .quote-holder .quote h2 {
+        text-align: right;
+        color: #79addc;
+        font-size: 20px; }
+
+@media (max-width: 1090px) {
+  .client-quotes .quote-holder .quote {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 200px;
+    max-width: 260px; }
+    .client-quotes .quote-holder .quote p,
+    .client-quotes .quote-holder .quote h2 {
+      margin: 0 auto;
+      padding-top: 20px; }
+    .client-quotes .quote-holder .quote .client-image,
+    .client-quotes .quote-holder .quote .client-image-two {
+      width: 260px;
+      height: 150px; }
+    .client-quotes .quote-holder .quote h1 {
+      padding-top: 20px; }
+    .client-quotes .quote-holder .quote .line {
+      margin-left: 20px; } }
+
+.tours-hero-wrapper {
+  width: 100%;
+  min-height: 400px; }
+  .tours-hero-wrapper .hero {
+    font-family: "Lato", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .tours-hero-wrapper .hero .callout {
+      text-align: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-top: 70px;
+      min-height: 200px;
+      width: 80%;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/tour/tours-header.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tours-header.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tours-header.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tours-header.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .tours-hero-wrapper .hero .callout h1 {
+        margin-top: 60px;
+        color: #ffffff;
+        font-family: "Roboto", sans-serif;
+        font-size: 60px;
+        text-transform: uppercase; }
+
+@media (max-width: 1090px) {
+  .tour-hero-wrapper .hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 1000px;
+    margin-left: 30%;
+    padding-bottom: 50px; }
+    .tour-hero-wrapper .hero .country-price-australia,
+    .tour-hero-wrapper .hero .country-price-isreal,
+    .tour-hero-wrapper .hero .country-price-usa {
+      height: 305px;
+      padding-bottom: 10px; } }
+
+.tour-list {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  min-height: 310px; }
+  .tour-list .tour-container {
+    width: 1280px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    min-height: 1100px;
+    width: 800px; }
+    .tour-list .tour-container .country-price-isreal {
+      width: 240px;
+      height: 305px;
+      background-color: #000000;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-01.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-01.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-01.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-01.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .tour-list .tour-container .country-price-isreal .price {
+        margin-bottom: 40px;
+        font-size: 30px; }
+      .tour-list .tour-container .country-price-isreal .country {
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        font-size: 50px; }
+      .tour-list .tour-container .country-price-isreal .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: #79addc;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px;
+        font-family: "Lato", sans-serif; }
+    .tour-list .tour-container .country-price-usa {
+      width: 240px;
+      height: 305px;
+      background-color: #000000;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-bottom: 5px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-02.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-02.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-02.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-02.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .tour-list .tour-container .country-price-usa .price {
+        margin-bottom: 40px;
+        font-size: 30px; }
+      .tour-list .tour-container .country-price-usa .country {
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        font-size: 50px; }
+      .tour-list .tour-container .country-price-usa .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: #79addc;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px; }
+    .tour-list .tour-container .country-price-australia {
+      width: 240px;
+      height: 305px;
+      background-color: #000000;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-03.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-03.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-03.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-03.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .tour-list .tour-container .country-price-australia .price {
+        margin-bottom: 40px;
+        font-size: 30px; }
+      .tour-list .tour-container .country-price-australia .country {
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        font-size: 40px; }
+      .tour-list .tour-container .country-price-australia .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: #79addc;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px; }
+    .tour-list .tour-container .country-price-new-zealand {
+      width: 240px;
+      height: 305px;
+      background-color: #000000;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-04.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-04.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-04.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-04.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .tour-list .tour-container .country-price-new-zealand .price {
+        margin-bottom: 40px;
+        font-size: 30px; }
+      .tour-list .tour-container .country-price-new-zealand .country {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        font-size: 50px; }
+      .tour-list .tour-container .country-price-new-zealand .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: #79addc;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px; }
+    .tour-list .tour-container .country-price-france {
+      width: 240px;
+      height: 305px;
+      background-color: #000000;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-05.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-05.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-05.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-05.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .tour-list .tour-container .country-price-france .price {
+        margin-bottom: 40px;
+        font-size: 30px; }
+      .tour-list .tour-container .country-price-france .country {
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        font-size: 50px; }
+      .tour-list .tour-container .country-price-france .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: #79addc;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px; }
+    .tour-list .tour-container .country-price-egypt {
+      width: 240px;
+      height: 305px;
+      background-color: #000000;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-06.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-06.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-06.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-06.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .tour-list .tour-container .country-price-egypt .price {
+        margin-bottom: 40px;
+        font-size: 30px; }
+      .tour-list .tour-container .country-price-egypt .country {
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        font-size: 50px; }
+      .tour-list .tour-container .country-price-egypt .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: #79addc;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px; }
+    .tour-list .tour-container .country-price-japan {
+      width: 240px;
+      height: 305px;
+      background-color: #000000;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-07.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-07.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-07.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-07.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .tour-list .tour-container .country-price-japan .price {
+        margin-bottom: 40px;
+        font-size: 30px; }
+      .tour-list .tour-container .country-price-japan .country {
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        font-size: 50px; }
+      .tour-list .tour-container .country-price-japan .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: #79addc;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px; }
+    .tour-list .tour-container .country-price-canada {
+      width: 240px;
+      height: 305px;
+      background-color: #000000;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-08.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-08.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-08.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-08.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .tour-list .tour-container .country-price-canada .price {
+        margin-bottom: 40px;
+        font-size: 30px; }
+      .tour-list .tour-container .country-price-canada .country {
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        font-size: 50px; }
+      .tour-list .tour-container .country-price-canada .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: #79addc;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px; }
+    .tour-list .tour-container .country-price-uae {
+      width: 240px;
+      height: 305px;
+      background-color: #000000;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-09.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-09.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-09.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-09.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .tour-list .tour-container .country-price-uae .price {
+        margin-bottom: 40px;
+        font-size: 30px; }
+      .tour-list .tour-container .country-price-uae .country {
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        font-size: 50px; }
+      .tour-list .tour-container .country-price-uae .flight-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: #79addc;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px; }
+
+@media (max-width: 1090px) {
+  .tour-list .tour-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 3250px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 50px; }
+    .tour-list .tour-container .country-price-australia,
+    .tour-list .tour-container .country-price-isreal,
+    .tour-list .tour-container .country-price-usa {
+      height: 305px;
+      padding-bottom: 50px; } }
+
+.offer-hero-wrapper {
+  width: 100%;
+  min-height: 150px; }
+  .offer-hero-wrapper .hero {
+    font-family: "Lato", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.offer-container {
+  width: 100%; }
+  .offer-container .offer-holder {
+    font-family: "Lato", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    width: 1280px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%; }
+    .offer-container .offer-holder .callout {
+      width: 1280px;
+      margin: 0 auto;
+      text-align: left;
+      min-height: 200px;
+      max-width: 80%;
+      padding-bottom: 100px; }
+      .offer-container .offer-holder .callout h1 {
+        color: #000000;
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: left; }
+      .offer-container .offer-holder .callout .line {
+        width: 150px;
+        height: 2px;
+        background-color: #000000;
+        margin-bottom: 20px;
+        margin-top: -20px; }
+    .offer-container .offer-holder .offer {
+      text-align: left;
+      margin-top: 70px;
+      min-height: 150px;
+      width: 55%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row; }
+      .offer-container .offer-holder .offer p {
+        padding-bottom: 25%; }
+      .offer-container .offer-holder .offer h1 {
+        color: #000000;
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: left; }
+      .offer-container .offer-holder .offer .line {
+        width: 150px;
+        height: 2px;
+        background-color: #000000;
+        margin-bottom: 20px;
+        margin-top: -20px; }
+      .offer-container .offer-holder .offer .desc {
+        color: #000000;
+        margin-bottom: 20px;
+        font-size: 16px; }
+      .offer-container .offer-holder .offer .line {
+        width: 150px;
+        height: 2px;
+        background-color: #000000;
+        margin-bottom: 20px;
+        margin-top: -20px; }
+      .offer-container .offer-holder .offer .offer-image {
+        min-width: 200px;
+        height: 290px;
+        background-image: url("../images/special-offer-01.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .offer-container .offer-holder .offer .offer-image-two {
+        min-width: 200px;
+        height: 290px;
+        background-image: url("../images/special-offer-02.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .offer-container .offer-holder .offer .offerText {
+        min-width: 200px;
+        min-height: 290px;
+        padding-left: 20px;
+        font-size: 16px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+      .offer-container .offer-holder .offer h2 {
+        text-align: right;
+        color: #79addc;
+        font-size: 20px; }
+      .offer-container .offer-holder .offer .offer-button {
+        font-size: 15px;
+        padding: 6px 25px;
+        background-color: #79addc;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px;
+        max-width: 150px; }
+
+@media (max-width: 1090px) {
+  .offer-container .offer-holder .callout h1 {
+    text-align: center; }
+  .offer-container .offer-holder .callout .line {
+    margin-left: 30%; }
+  .offer-container .offer-holder .callout .offer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 600px;
+    margin-left: 30%;
+    padding-bottom: 50px; }
+    .offer-container .offer-holder .callout .offer h1 {
+      padding-top: 20px; }
+    .offer-container .offer-holder .callout .offer .line {
+      margin-left: 20px; } }
+
+.contact-container {
+  width: 100%; }
+  .contact-container .contact-holder {
+    font-family: "Lato", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    width: 1280px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .contact-container .contact-holder .header-holder {
+      width: 1280px;
+      margin: 0 auto;
+      max-width: 80%;
+      padding-bottom: 25px; }
+      .contact-container .contact-holder .header-holder h1 {
+        color: #000000;
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: left; }
+      .contact-container .contact-holder .header-holder .line {
+        width: 150px;
+        height: 2px;
+        background-color: #000000;
+        margin-bottom: 20px;
+        margin-top: -20px; }
+    .contact-container .contact-holder .callout {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 1280px;
+      margin: 0 auto;
+      text-align: left;
+      min-height: 200px;
+      max-width: 80%;
+      padding-bottom: 100px;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .contact-container .contact-holder .callout .map-and-info-holder {
+        width: 400px;
+        min-height: 450px; }
+        .contact-container .contact-holder .callout .map-and-info-holder .map-image {
+          padding-top: 50px;
+          width: 400px;
+          height: 445px;
+          background-image: url("../images/map.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover; }
+        .contact-container .contact-holder .callout .map-and-info-holder .contact-info {
+          padding-top: 30px;
+          width: 400px;
+          min-height: 200px;
+          font-family: "Lato", sans-serif;
+          font-size: 18px; }
+      .contact-container .contact-holder .callout .form-holder {
+        width: 600px;
+        min-height: 600px;
+        padding-left: 50px; }
+        .contact-container .contact-holder .callout .form-holder .formContainer {
+          min-width: 510px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          padding-bottom: 20px; }
+          .contact-container .contact-holder .callout .form-holder .formContainer .formEntry {
+            padding: 10px;
+            width: 530px;
+            height: 60px;
+            border-color: #79addc;
+            border-width: 0.75px; }
+          .contact-container .contact-holder .callout .form-holder .formContainer .formEntry-message {
+            padding: 10px;
+            width: 530px;
+            height: 200px;
+            border-color: #79addc;
+            border-width: 0.75px; }
+        .contact-container .contact-holder .callout .form-holder .contact-button {
+          font-size: 15px;
+          padding: 20px 25px;
+          background-color: #79addc;
+          color: white;
+          text-transform: uppercase;
+          text-decoration: none;
+          max-width: 170px;
+          max-height: 60px; }
+
+@media (max-width: 1090px) {
+  .contact-container .contact-holder .header-holder {
+    margin-left: 30%; }
+  .contact-container .contact-holder .callout {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 600px;
+    margin-left: 30%;
+    padding-bottom: 50px; }
+    .contact-container .contact-holder .callout .form-holder {
+      padding-left: 0px; }
+      .contact-container .contact-holder .callout .form-holder .formContainer .formEntry,
+      .contact-container .contact-holder .callout .form-holder .formContainer .formEntry-message {
+        width: 400px; } }
+
+.contact-hero-wrapper {
+  width: 100%;
+  min-height: 150px; }
+  .contact-hero-wrapper .hero {
+    font-family: "Lato", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.blog-hero-wrapper {
+  width: 100%;
+  min-height: 150px; }
+  .blog-hero-wrapper .hero {
+    font-family: "Lato", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%; }
+
+.blog-section-container {
+  width: 100%;
+  min-height: 250px;
+  padding-bottom: 100px;
+  width: 1280px;
+  margin: 0 auto; }
+  .blog-section-container .blog-section-holder {
+    font-family: "Lato", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    width: 1280px;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%; }
+    .blog-section-container .blog-section-holder h1 {
+      color: #000000;
+      font-family: "Roboto", sans-serif;
+      font-size: 30px;
+      text-transform: uppercase; }
+    .blog-section-container .blog-section-holder .line {
+      width: 75px;
+      height: 2px;
+      background-color: #000000;
+      margin-bottom: 20px;
+      margin-top: -20px; }
+    .blog-section-container .blog-section-holder .blog-container {
+      text-align: left;
+      margin-top: 70px;
+      min-height: 300px;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      background-color: blue; }
+      .blog-section-container .blog-section-holder .blog-container .desc {
+        color: #000000;
+        margin-bottom: 20px;
+        font-size: 16px; }
+      .blog-section-container .blog-section-holder .blog-container .line {
+        width: 150px;
+        height: 2px;
+        background-color: #000000;
+        margin-bottom: 20px;
+        margin-top: -20px; }
+      .blog-section-container .blog-section-holder .blog-container .client-image {
+        min-width: 260px;
+        height: 150px;
+        background-image: url("../images/about-client-01.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .blog-section-container .blog-section-holder .blog-container .client-image-two {
+        min-width: 260px;
+        height: 150px;
+        background-image: url("../images/about-client-02.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .blog-section-container .blog-section-holder .blog-container .quoteText {
+        min-width: 250px;
+        min-height: 150px;
+        padding-left: 20px;
+        font-size: 16px; }
+      .blog-section-container .blog-section-holder .blog-container h2 {
+        text-align: right;
+        color: #79addc;
+        font-size: 20px; }
+
+@media (max-width: 1090px) {
+  .client-quotes .quote-holder .quote {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 200px;
+    max-width: 260px; }
+    .client-quotes .quote-holder .quote p,
+    .client-quotes .quote-holder .quote h2 {
+      margin: 0 auto;
+      padding-top: 20px; }
+    .client-quotes .quote-holder .quote .client-image,
+    .client-quotes .quote-holder .quote .client-image-two {
+      width: 260px;
+      height: 150px; }
+    .client-quotes .quote-holder .quote h1 {
+      padding-top: 20px; }
+    .client-quotes .quote-holder .quote .line {
+      margin-left: 20px; } }
