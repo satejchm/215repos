@@ -31,87 +31,87 @@
     }
 
     .blog-container {
+      display: flex;
+      justify-content: space-between;
       text-align: left;
       margin-top: 70px;
-      min-height: 300px;
+      min-height: 400px;
       width: 100%;
       display: flex;
       flex-direction: row;
-      background-color: blue;
 
-      .desc {
-        color: $black;
-        margin-bottom: 20px;
-        font-size: 16px;
+      .date {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 60px;
+        height: 60px;
+        background-color: $blue;
+
+        .date-number {
+          font-size: 22px;
+          font-weight: bold;
+        }
+
+        .date-month {
+          font-size: 12px;
+        }
       }
 
-      .line {
-        width: 150px;
-        height: 2px;
-        background-color: $black;
-        margin-bottom: 20px;
-        margin-top: -20px;
-      }
+      .pic-info-container {
+        width: 900px;
+        min-height: 260px;
 
-      .client-image {
-        min-width: 260px;
-        height: 150px;
-        background-image: url("../images/about-client-01.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
+        .pic {
+          width: 900px;
+          height: 260px;
+          background-image: url("../images/blog.jpg");
 
-      .client-image-two {
-        min-width: 260px;
-        height: 150px;
-        background-image: url("../images/about-client-02.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
 
-      .quoteText {
-        min-width: 250px;
-        min-height: 150px;
-        padding-left: 20px;
-        font-size: 16px;
-      }
+        .infoText {
+          width: 450px;
+          min-height: 150px;
+          text-align: left;
+          justify-content: left;
 
-      h2 {
-        text-align: right;
-        color: $blue;
-        font-size: 20px;
+          h1 {
+            padding-top: 20px;
+            font-size: 15px;
+            font-family: $roboto;
+          }
+
+          h2 {
+            //padding-top: 20px;
+            font-size: 15px;
+            font-family: $roboto;
+            color: $blue;
+          }
+        }
       }
     }
   }
 }
 
 @media (max-width: 1090px) {
-  .client-quotes {
-    .quote-holder {
-      .quote {
+  .blog-section-container {
+    .blog-section-holder {
+      .blog-container {
         flex-direction: column;
         min-height: 200px;
-        max-width: 260px;
+        min-width: 260px;
 
-        p,
-        h2 {
-          margin: 0 auto;
-          padding-top: 20px;
-        }
-        .client-image,
-        .client-image-two {
-          width: 260px;
-          height: 150px;
-        }
-
-        h1 {
-          padding-top: 20px;
-        }
-
-        .line {
-          margin-left: 20px;
+        .pic-info-container {
+          padding-top: 10px;
+          flex-direction: column;
+          .pic {
+            max-width: 50%;
+          }
         }
       }
     }

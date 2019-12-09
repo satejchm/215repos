@@ -1,0 +1,144 @@
+//this is the styling for the hero section.
+.egypt-image-container {
+  width: 100%;
+  min-height: 400px;
+  //background-color: $blue;
+
+  .egypt-image-holder {
+    font-family: $lato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include center-content();
+    max-width: 100%;
+    height: 100%;
+
+    .callout {
+      justify-content: space-between;
+      @include center-content();
+      margin-top: 70px;
+      min-height: 400px;
+      width: 80%;
+      font-family: $roboto;
+      display: flex;
+      flex-direction: row;
+
+      .image-one {
+        width: 300px;
+        height: 350px;
+        background-color: $black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        background-image: linear-gradient(
+            to right,
+            rgba($black, 0.4),
+            rgba($black, 0.4)
+          ),
+          url("../images/tour/tour-egypt/egypt-tour-01.jpg");
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .image-two {
+        width: 300px;
+        height: 350px;
+        background-color: $black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        background-image: linear-gradient(
+            to right,
+            rgba($black, 0.4),
+            rgba($black, 0.4)
+          ),
+          url("../images/tour/tour-egypt/egypt-tour-02.jpg");
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .image-three {
+        width: 300px;
+        height: 350px;
+        background-color: $black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        background-image: linear-gradient(
+            to right,
+            rgba($black, 0.4),
+            rgba($black, 0.4)
+          ),
+          url("../images/tour/tour-egypt/egypt-tour-03.jpg");
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+  .day-container {
+    @include center-content();
+    width: 80%;
+    min-height: 300px;
+
+    h1 {
+      color: $black;
+      font-family: $roboto;
+      font-size: 60px;
+      text-transform: uppercase;
+    }
+
+    .line {
+      width: 150px;
+      height: 2px;
+      background-color: $black;
+      margin-bottom: 20px;
+      margin-top: -20px;
+    }
+
+    .day {
+      width: 100%;
+
+      p {
+        padding-top: 20px;
+        font-size: 16px;
+        font-family: $lato;
+      }
+      width: 80%;
+    }
+  }
+}
+@media (max-width: 1090px) {
+  .egypt-image-container {
+    .egypt-image-holder {
+      .callout {
+        flex-direction: column;
+        min-height: 1200px;
+        //justify-content: space-around;
+        margin-left: 20%;
+        padding-bottom: 50px;
+
+        .image-one,
+        .image-two {
+          padding-bottom: 20px;
+        }
+      }
+      .day-container {
+        .day {
+          margin-left: 10%;
+        }
+      }
+    }
+  }
+}
